@@ -1,8 +1,12 @@
   {
-    "name": "Getting Started Example",
+    "name": "檢查繁體中文",
     "version": "1.0",
-    "description": "Build an Extension!",
-    "permissions": ["declarativeContent", "storage"],
+    "description": "檢查繁體中文",
+    "permissions": [
+      "activeTab",
+      "declarativeContent",
+      "storage"
+    ],
     "background": {
       "scripts": ["background.js"],
       "persistent": false
@@ -10,17 +14,17 @@
     "page_action": {
       "default_popup": "popup.html",
       "default_icon": {
-        "16": "images/get_started16.png",
-        "32": "images/get_started32.png",
-        "48": "images/get_started48.png",
-        "128": "images/get_started128.png"
+        "16": "images/check_trad_chinese16.png",
+        "32": "images/check_trad_chinese32.png",
+        "48": "images/check_trad_chinese48.png",
+        "128": "images/check_trad_chinese128.png"
       }
     },
     "icons": {
-      "16": "images/get_started16.png",
-      "32": "images/get_started32.png",
-      "48": "images/get_started48.png",
-      "128": "images/get_started128.png"
+      "16": "images/check_trad_chinese16.png",
+      "32": "images/check_trad_chinese32.png",
+      "48": "images/check_trad_chinese48.png",
+      "128": "images/check_trad_chinese128.png"
     },
     "manifest_version": 2
   }
